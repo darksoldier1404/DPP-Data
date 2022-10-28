@@ -1,0 +1,115 @@
+{
+  "DPP-Core": {
+    "uc": {
+      "permissions": {
+        "sub": "dppc.uc"
+      },
+      "uses": "/dppc uc - 업데이트 확인"
+    }
+  },
+  "DP-LegendaryCash": {
+    "공개": {
+      "permissions": {
+        "c": "dlc.check.cash",
+        "m": "dlc.check.mileage"
+      },
+      "uses": "/dlc 공개 <c/m> <플레이어>"
+    },
+    "빼기": {
+      "permissions": {
+        "c": "dlc.take.cash",
+        "m": "dlc.take.mileage"
+      },
+      "uses": "/dlc 빼기 <c/m> <플레이어> <금액>"
+    },
+    "확인": {
+      "permissions": {
+        "c": "dlc.check.cash",
+        "m": "dlc.check.mileage"
+      },
+      "uses": "/dlc 확인 <c/m> <플레이어>"
+    },
+    "설정": {
+      "permissions": {
+        "c": "dlc.set.cash",
+        "m": "dlc.set.mileage"
+      },
+      "uses": "/dlc 설정 <c/m> <플레이어> <금액>"
+    },
+    "수표": {
+      "permissions": {
+        "c": "dlc.check.cash"
+      },
+      "uses": "/dlc 수표 <플레이어> <금액>"
+    },
+    "리로드": {
+      "permissions": {
+        "c": "dlc.reload"
+      },
+      "uses": "/dlc 리로드"
+    },
+    "주기": {
+      "permissions": {
+        "c": "dlc.give.cash",
+        "m": "dlc.give.mileage"
+      },
+      "uses": "/dlc 주기 <c/m> <플레이어> <금액>"
+    },
+    "송금": {
+      "permissions": {
+        "c": "dlc.transfer.cash"
+      },
+      "uses": "/dlc 송금 <플레이어> <금액>"
+    }
+  },
+  "DP-ItemEditor": {
+    "name": {
+      "permissions": {
+        "sub": "die.admin"
+      },
+      "uses": "/die name <Display Name>"
+    },
+    "lore": {
+      "permissions": {
+        "sub": "die.admin"
+      },
+      "uses": [
+        "/die lore add <lore>",
+        "/die lore del <line>",
+        "/die lore set <line> <lore>"
+      ]
+    },
+    "type": {
+      "permissions": {
+        "sub": "die.admin"
+      },
+      "uses": "/die type <Material>"
+    },
+    "cmi": {
+      "permissions": {
+        "sub": "die.admin"
+      },
+      "uses": "/die cmi <CustomModelData>"
+    },
+    "enc": {
+      "permissions": {
+        "sub": "die.admin"
+      },
+      "uses": [
+        "/die enc add <enchant> <level>",
+        "/die enc del <enchant>"
+      ]
+    },
+    "nbt": {
+      "permissions": {
+        "sub": "die.admin"
+      },
+      "uses": [
+        "/die nbt del <key>",
+        "/die nbt set <key> <value>",
+        "/die nbt get <key>",
+        "/die nbt list"
+      ]
+    }
+  }
+}
